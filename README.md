@@ -255,4 +255,6 @@ bundle exec rails new -h
 ```
 で調べることができる。
 
-⑺.gitignoreを[https://www.gitignore.io/]のrails用に編集する。
+⑺必要なgemを入れる。
+
+⑻.gitignoreを[https://www.gitignore.io/]のrails用に編集する。
