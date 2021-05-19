@@ -45,9 +45,9 @@
 
 <img src="https://i.imgur.com/joig3r9.png">
 
-## ⑹起動をして少し待つと、ユーザーネームの設定が出るので、
+## ⑹起動をして少し待つと、ユーザーネームの設定が出るので、任意のユーザーネームを設定する。
 
-任意のユーザーネームを設定する。(ここでは[makomako])
+(ここでは[makomako])
 
 <img src="https://i.imgur.com/DQUFyll.png">
 
