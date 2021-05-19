@@ -53,7 +53,7 @@
 
 ## ⑺次にパスワードを設定する。
 
-※ここで、打ち込んでも表示されないが、実際は打ち込まれているころに注意する。
+※ここで、打ち込んでも表示されないが、実際は打ち込まれていることに注意する。
 
 <img src="https://i.imgur.com/iShDekS.png">
 
@@ -219,27 +219,27 @@ ruby -v
 
 # 5.Railsの開発を開始する。
 
-⑴任意のディレクトリを作成する
+## ⑴任意のディレクトリを作成する
 
 ```
 $ mkdir mako-app
 ```
 
-⑵ディレクトリに移動
+## ⑵ディレクトリに移動
 ```
 $ cd mako-app
 ```
-⑶Gemfileを作成。
+## ⑶Gemfileを作成。
 ```
 $ bundle init
 ```
 
-⑷Gemfileの中身を編集<br>
+## ⑷Gemfileの中身を編集<br>
 (コメントアウトされているgem "rails"をアンコメント)
 
 <img src="https://i.imgur.com/lc9ZSDI.png">
 
-⑸Railsをインストール
+## ⑸Railsをインストール
 ```
 $ bundle install --path vendor/bundle
 ```
@@ -247,7 +247,7 @@ $ bundle install --path vendor/bundle
 このオプションを付けることによって、プロジェクトのvendor/bundle以下にgemが格納されます。
 <img src="https://i.imgur.com/e52NmoN.png">
 
-⑹Railsプロジェクトを作成。
+## ⑹Railsプロジェクトを作成。
 ```
 bundle exec rails new .
 ```
@@ -257,6 +257,8 @@ bundle exec rails new -h
 ```
 で調べることができる。
 
-⑺必要なgemを入れる。
+## ⑺必要なgemを入れる。
 
-⑻.gitignoreを[https://www.gitignore.io/]のrails用に編集する。
+## ⑻.gitignoreをrails用に編集する。
+https://www.gitignore.io/
+を開いて、検索バーで「Rails」と入力して、開かれたコードを.gitignoreにコピペ。
