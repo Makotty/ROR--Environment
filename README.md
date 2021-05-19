@@ -175,8 +175,10 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 ```
 の下に、
 ```
-eval "$(rbenv init -)"を追加する。
+eval "$(rbenv init -)"
 ```
+を追加する。
+
 <img src="https://i.imgur.com/3GNlEne.png">
 
 最後に
