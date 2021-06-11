@@ -199,7 +199,7 @@ ruby-buildのインストール
 
 任意のバージョンのRubyを入れる。
 ```
-$ rbenv install 〇.〇.〇
+$ rbenv install 2.6.7
 ```
 ※ここめちゃ時間かかる。
 
@@ -209,7 +209,7 @@ $ rbenv install 〇.〇.〇
 $ rbenv rehash
 ```
 ```
-$ rbenv global 〇.〇.〇
+$ rbenv global 2.6.7
 ```
 
 Rubyのバージョン確認
